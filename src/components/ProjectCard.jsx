@@ -1,0 +1,31 @@
+import { FiGithub, FiExternalLink } from 'react-icons/fi'
+
+export default function ProjectCard({ project }) {
+  const { title, description, tags, image, links } = project
+  return (
+    <article className="grid grid-rows-[auto_1fr_auto] border border-white/10">
+      <div className="border-b border-white/10 aspect-[16/9] bg-black/60 flex items-center justify-center">
+        {/* Placeholder image box; replace with actual image path */}
+        <img src={image} alt="" className="h-16 opacity-50" />
+      </div>
+      <div className="p-4 md:p-6">
+        <h3 className="uppercase text-sm font-bold tracking-widest">{title}</h3>
+        <p className="mt-3 text-sm text-white/80">{description}</p>
+        <ul className="mt-4 flex flex-wrap gap-2 text-xs text-white/60">
+          {tags.map((t) => (
+            <li key={t} className="border border-white/10 px-2 py-1">{t}</li>
+          ))}
+        </ul>
+      </div>
+      <div className="flex items-center gap-3 p-4 md:p-6 border-t border-white/10">
+        <a href={links.github} className="btn-outline" target="_blank" rel="noreferrer">
+          <FiGithub className="mr-2" /> GitHub
+        </a>
+        <a href={links.demo} className="btn-outline" target="_blank" rel="noreferrer">
+          <FiExternalLink className="mr-2" /> Live Demo
+        </a>
+      </div>
+    </article>
+  )
+}
+
