@@ -3,36 +3,37 @@ import { FiGithub, FiLinkedin, FiMail, FiPhone, FiMapPin } from 'react-icons/fi'
 export default function Contact() {
   return (
     <div>
-      <h2 className="section-title">CONTACT</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <p className="font-bold text-sm mb-6">get in touch</p>
+      <div className="max-w-3xl space-y-6">
         <div>
-          <p className="text-black/80 dark:text-white/80 mb-6">Let's build something together. I'm always open to discussing new opportunities and interesting projects.</p>
-          <div className="space-y-3">
-            <div className="flex items-center gap-3 text-black/80 dark:text-white/80">
+          <p className="text-sm mb-4">let's build something together. always open to discussing new opportunities and interesting projects.</p>
+          <div className="space-y-2">
+            <div className="flex items-center gap-3 text-sm">
               <FiMail className="w-4 h-4" />
               <span>youssef.ouarad@polymtl.ca</span>
             </div>
-            <div className="flex items-center gap-3 text-black/80 dark:text-white/80">
+            <div className="flex items-center gap-3 text-sm">
               <FiPhone className="w-4 h-4" />
               <span>(438) 276-6252</span>
             </div>
-            <div className="flex items-center gap-3 text-black/80 dark:text-white/80">
+            <div className="flex items-center gap-3 text-sm">
               <FiMapPin className="w-4 h-4" />
-              <span>Montreal, Canada</span>
+              <span>montreal, canada</span>
             </div>
           </div>
         </div>
+        
         <div>
-          <h3 className="text-sm font-bold uppercase tracking-widest mb-4 text-black/90 dark:text-white/90">Connect With Me</h3>
+          <p className="font-bold text-sm mb-4">connect with me</p>
           <div className="flex flex-wrap gap-3">
             <a href="mailto:youssef.ouarad@polymtl.ca" className="btn-outline">
-              <FiMail className="mr-2" /> Email Me
+              <FiMail className="mr-2" /> email
             </a>
             <a href="https://github.com/youssefouarad" target="_blank" rel="noreferrer" className="btn-outline">
-              <FiGithub className="mr-2" /> GitHub
+              <FiGithub className="mr-2" /> github
             </a>
             <a href="https://linkedin.com/in/youssefouarad" target="_blank" rel="noreferrer" className="btn-outline">
-              <FiLinkedin className="mr-2" /> LinkedIn
+              <FiLinkedin className="mr-2" /> linkedin
             </a>
           </div>
         </div>

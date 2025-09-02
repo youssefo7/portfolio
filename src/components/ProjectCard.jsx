@@ -3,12 +3,9 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi'
 export default function ProjectCard({ project }) {
   const { title, description, tags, image, links } = project
   return (
-    <article className="grid grid-rows-[auto_1fr_auto] border border-white/10">
-      <div className="border-b border-white/10 aspect-[16/9] bg-black/60 flex items-center justify-center">
-        {/* Placeholder image box; replace with actual image path */}
-        <img src={image} alt="" className="h-16 opacity-50" />
-      </div>
-      <div className="p-4 md:p-6">
+    <article className="grid grid-rows-[auto_1fr_auto] border border-white/10 h-full">
+
+      <div className="p-4 md:p-6 h-64">
         <h3 className="uppercase text-sm font-bold tracking-widest">{title}</h3>
         <p className="mt-3 text-sm text-white/80">{description}</p>
         <ul className="mt-4 flex flex-wrap gap-2 text-xs text-white/60">

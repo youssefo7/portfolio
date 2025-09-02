@@ -80,7 +80,7 @@ export const projects = [
     title: "InsightIQ - AI Analytics Platform",
     description:
       "Work-in-progress AI-powered analytics platform combining machine learning with interactive data visualization for business insights.",
-    tags: ["AI", "Analytics", "Visualization", "WIP"],
+    tags: ["AI", "Analytics", "Visualization"],
     image: "/vite.svg",
     links: {
       github: "#",

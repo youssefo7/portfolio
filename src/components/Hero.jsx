@@ -2,17 +2,22 @@ export default function Hero() {
   return (
     <div className="pt-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
       <div>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold uppercase leading-tight">
-          YOUSSEF OUARAD
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
+          hey! i'm youssef
         </h1>
-        <p className="mt-3 text-black/80 dark:text-white/80 uppercase tracking-widest text-sm">Software Engineer • Technical Lead • Full-Stack Developer</p>
-        <p className="mt-6 max-w-xl text-black/80 dark:text-white/80">
-          Software Engineering student at Polytechnique Montreal with experience in full-stack development, 
-          technical leadership, and building scalable systems. Currently working at Thales as a Technical Lead.
+        <p className="mt-3 text-sm">
+          morocco (born), canada (raised) & the world (always)
         </p>
+        <div className="mt-8 max-w-xl">
+          <p className="text-sm">
+            software engineering new grad from polytechnique montreal. passionate about <span className="underline">chess</span>, <span className="underline">sports</span>, and <span className="underline">traveling</span>. 
+            worked at <span className="underline">ludo</span> and <span className="underline">thales</span>, 
+            currently enrolled in software <span className="underline">masters at poly</span>. ultimately want to be a <span className="underline">product manager</span>. :)
+          </p>
+        </div>
         <div className="mt-8 flex gap-3">
-          <a href="#projects" className="btn-outline">View Projects</a>
-          <a href="/resume.pdf" className="btn-outline">Download Resume</a>
+          <a href="#about" className="btn-outline">more about me</a>
+          <a href="#projects" className="btn-outline">my work</a>
         </div>
       </div>
       <div className="md:justify-self-end">
