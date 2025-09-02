@@ -10,7 +10,7 @@ export default function Hero() {
         </p>
         <div className="mt-8 max-w-xl">
           <p className="text-sm">
-            software engineering new grad from polytechnique montreal. passionate about <span className="underline">chess</span>, <span className="underline">sports</span>, and <span className="underline">traveling</span>. 
+            software engineering new grad from polytechnique montreal. passionate about <span className="underline">chess</span>, <span className="underline">sports</span>, and <span className="underline">financial markets</span>. 
             worked at <span className="underline">ludo</span> and <span className="underline">thales</span>, 
             currently enrolled in software <span className="underline">masters at poly</span>. ultimately want to be a <span className="underline">product manager</span>. :)
           </p>
@@ -20,11 +20,11 @@ export default function Hero() {
           <a href="#projects" className="btn-outline">my work</a>
         </div>
       </div>
-      <div className="md:justify-self-end">
+      {/* <div className="md:justify-self-end">
         <div className="aspect-square w-56 sm:w-72 md:w-80 border border-black/20 dark:border-white/20 grid place-items-center">
           <span className="text-black/40 dark:text-white/40 uppercase text-xs tracking-widest">PROFILE IMAGE</span>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
