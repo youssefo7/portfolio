@@ -18,9 +18,9 @@ export default function ProjectCard({ project }) {
         <a href={links.github} className="btn-outline" target="_blank" rel="noreferrer">
           <FiGithub className="mr-2" /> GitHub
         </a>
-        <a href={links.demo} className="btn-outline" target="_blank" rel="noreferrer">
+        {/* <a href={links.demo} className="btn-outline" target="_blank" rel="noreferrer">
           <FiExternalLink className="mr-2" /> Live Demo
-        </a>
+        </a> */}
       </div>
     </article>
   )

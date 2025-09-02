@@ -6,8 +6,8 @@ export const projects = [
     tags: ["MEAN Stack", "Dart", "Electron", "Flutter"],
     image: "/vite.svg",
     links: {
-      github: "#",
-      demo: "#",
+      github: "https://github.com/youssefo7/Find-The-Difference",
+      //demo: "#",
     },
   },
   {
@@ -17,8 +17,8 @@ export const projects = [
     tags: ["MEAN Stack", "NestJS", "AWS"],
     image: "/vite.svg",
     links: {
-      github: "#",
-      demo: "#",
+      github: "https://github.com/youssefo7/quiz-app",
+      //demo: "#",
     },
   },
   {
@@ -28,8 +28,8 @@ export const projects = [
     tags: ["C++", "Embedded Systems", "Sensors"],
     image: "/vite.svg",
     links: {
-      github: "#",
-      demo: "#",
+      github: "https://github.com/youssefo7/automated-robot-ATMEGA",
+      //demo: "#",
     },
   },
   {
@@ -39,8 +39,8 @@ export const projects = [
     tags: ["Python", "AI", "Minimax", "Alpha-Beta Pruning"],
     image: "/vite.svg",
     links: {
-      github: "#",
-      demo: "#",
+      github: "https://github.com/youssefo7/ai-divercite/tree/main/Projet",
+      //demo: "#",
     },
   },
   {
@@ -50,8 +50,8 @@ export const projects = [
     tags: ["Python", "Plotly", "Pandas", "Data Analytics"],
     image: "/vite.svg",
     links: {
-      github: "#",
-      demo: "#",
+      github: "https://github.com/oussamaelfig/SportAI/tree/main/src",
+      //demo: "#",
     },
   },
   {
@@ -61,8 +61,8 @@ export const projects = [
     tags: ["Java", "Android SDK", "Firebase", "Google Maps"],
     image: "/vite.svg",
     links: {
-      github: "#",
-      demo: "#",
+      github: "https://github.com/youssefo7/strava-mini",
+      //demo: "#",
     },
   },
   {
@@ -72,8 +72,8 @@ export const projects = [
     tags: ["Python", "AWS EC2", "Spark", "Hadoop"],
     image: "/vite.svg",
     links: {
-      github: "#",
-      demo: "#",
+      github: "https://github.com/youssefo7/CMPH",
+      //demo: "#",
     },
   },
   {
@@ -83,8 +83,8 @@ export const projects = [
     tags: ["AI", "Analytics", "Visualization"],
     image: "/vite.svg",
     links: {
-      github: "#",
-      demo: "#",
+      github: "https://github.com/youssefo7/insightiq",
+      //demo: "#",
     },
   },
 ];
