@@ -3,7 +3,7 @@ const links = [
   { href: '#home', label: 'Home' },
   { href: '#about', label: 'About' },
   { href: '#projects', label: 'Projects' },
-  { href: '/resume.pdf', label: 'Resume' },
+  { href: '/portfolio/resume.pdf', label: 'Resume' },
 ]
 
 export default function Navbar() {
