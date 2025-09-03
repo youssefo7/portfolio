@@ -13,9 +13,9 @@ export default function Hero() {
         </p>
         <div className="mt-8 max-w-xl">
           <p className="text-sm">
-            software engineering new grad from polytechnique montreal. passionate about <span className="underline">chess</span>, <span className="underline">sports</span>, and <span className="underline">financial markets</span>. 
-            worked at <span className="underline">ludo</span> and <span className="underline">thales</span>, 
-            currently enrolled in software <span className="underline">masters at poly</span>. ultimately want to be a <span className="underline">product manager</span>. :)
+            software engineering new grad from polytechnique montreal. passionate about <span className="underline">tech</span>, <span className="underline">maths</span>, <span className="underline">financial markets</span>, and <span className="underline">sports</span>. 
+            worked for <span className="underline">thales</span> and <span className="underline">ludo</span>, 
+            enrolled in a <span className="underline">masters</span> in swe. ultimately want to be a <span className="underline">product manager</span>. :)
           </p>
         </div>
         <div className="mt-8 flex gap-3">
