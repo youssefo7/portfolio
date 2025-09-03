@@ -21,6 +21,7 @@ export default function Hero() {
         <div className="mt-8 flex gap-3">
           <a href="#about" className="btn-outline">more about me</a>
           <a href="#projects" className="btn-outline">my work</a>
+          <a href="/resume.pdf" target="_blank" rel="noreferrer" className="btn-outline">my resume</a>
         </div>
       </div>
       
