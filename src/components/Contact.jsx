@@ -29,9 +29,7 @@ export default function Contact() {
             <a href="mailto:youssef.ouarad@polymtl.ca" className="btn-outline">
               <FiMail className="mr-2" /> email
             </a>
-            <a href="https://github.com/youssefo7" target="_blank" rel="noreferrer" className="btn-outline">
-              <FiGithub className="mr-2" /> github
-            </a>
+
             <a href="https://www.linkedin.com/in/youssef-ouarad-069828234/" target="_blank" rel="noreferrer" className="btn-outline">
               <FiLinkedin className="mr-2" /> linkedin
             </a>

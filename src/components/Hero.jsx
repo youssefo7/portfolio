@@ -1,7 +1,10 @@
+import { FiLinkedin, FiMail, FiMapPin } from 'react-icons/fi'
+
 export default function Hero() {
   return (
-    <div className="pt-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-      <div>
+    <div className="pt-16 grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
+      {/* Main hero content */}
+      <div className="lg:col-span-2">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
           hey! i'm youssef
         </h1>
@@ -20,11 +23,33 @@ export default function Hero() {
           <a href="#projects" className="btn-outline">my work</a>
         </div>
       </div>
-      {/* <div className="md:justify-self-end">
-        <div className="aspect-square w-56 sm:w-72 md:w-80 border border-black/20 dark:border-white/20 grid place-items-center">
-          <span className="text-black/40 dark:text-white/40 uppercase text-xs tracking-widest">PROFILE IMAGE</span>
+      
+      {/* Contact sidebar */}
+      <div className="lg:col-span-1 border border-black/10 p-6 space-y-6">
+        <div>
+          <p className="font-bold text-sm mb-4">get in touch</p>
+          <p className="text-sm mb-4 text-black/70">let's build something together. always open to discussing new opportunities and interesting projects.</p>
         </div>
-      </div> */}
+        
+        <div className="space-y-3">
+          <div className="flex items-center gap-3 text-sm">
+            <FiMail className="w-4 h-4 text-black/60" />
+            <span>youssef.ouarad@polymtl.ca</span>
+          </div>
+          <div className="flex items-center gap-3 text-sm">
+            <FiMapPin className="w-4 h-4 text-black/60" />
+            <span>montreal, canada</span>
+          </div>
+        </div>
+        
+        <div className="pt-4 border-t border-black/10">
+          <div className="flex flex-col gap-2">
+            <a href="https://www.linkedin.com/in/youssef-ouarad-069828234/" target="_blank" rel="noreferrer" className="btn-outline text-xs">
+              <FiLinkedin className="mr-2" /> linkedin
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
