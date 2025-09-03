@@ -4,8 +4,8 @@ export default function About() {
       <div className="max-w-3xl space-y-8">
         <div className="space-y-3">
           <p className="font-bold text-sm mb-4">my present</p>
-          <p className="text-sm">B.Ing software engineering new grad from polytechnique montreal with a focus on <span className="bg-black text-white px-1">distributed systems & cybersecurity</span>.</p>
-          <p className="text-sm">working at <span className="bg-black text-white px-1">thales</span> as a technical lead, fascinated by the intersection of finance and technology.</p>
+          <p className="text-sm">B.Ing software engineering new grad from polytechnique montreal with a focus on <span className="bg-black text-white px-1">distributed systems & cybersecurity</span>. enrolled in a <span className="bg-black text-white px-1">masters</span> in swe @ poly winter 2026.</p>
+          <p className="text-sm">working at <span className="bg-black text-white px-1">thales</span> as a technical lead, revamping avionics tools.</p>
           <p className="text-sm">managing <span className="bg-black text-white px-1">7</span> investment portfolios with a <span className="bg-black text-white px-1"> sharpe ratio {">"} 1</span></p>
           <p className="text-sm">developing a deep love for <span className="bg-black text-white px-1">mathematics</span> - self-studying advanced topics while balancing work and side projects.</p>
         </div>
